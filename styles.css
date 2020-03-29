@@ -5,9 +5,11 @@ video:focus {
   outline: none;
 }
 .iframe-container {
+  max-width: 500px;
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
+  width: 100%;
 }
 .iframe-container iframe {
   border: 0;
@@ -15,5 +17,13 @@ video:focus {
   left: 0;
   position: absolute;
   top: 0;
+  width: 100%;
+}
+.video-content video {
+  max-width: 500px;
+  width: 100%;
+}
+.image-content img {
+  max-width: 500px;
   width: 100%;
 }
