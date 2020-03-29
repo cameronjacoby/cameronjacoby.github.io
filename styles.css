@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One|Limelight');
+
 body {
-  /*background-color: grey;*/
+  background-color: #f8f2f3;
+  color: #2e283f;
+  font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-video:focus {
+h1 {
+  /*font-family: 'Gravitas One';*/
+  font-family: 'Limelight';
+}
+h1, h3 {
+  /*font-family: 'Merriweather', serif;*/
+}
+a {
+  color: #2e283f;
+}
+a:hover {
+  color: #4dc59d;
+  text-decoration: none;
+}
+a:focus, video:focus {
   outline: none;
 }
 .iframe-container {
