@@ -6,7 +6,7 @@ body {
   font-family: 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 h1 {
-  font-family: 'Limelight';
+  font-family: 'Limelight', cursive;
 }
 h3 {
   font-weight: 700;
@@ -29,16 +29,15 @@ hr {
 }
 
 .header {
-  padding: 4rem 0;
+  padding: 3rem 0;
   padding-right: 3px;
 }
 .social-icons {
-  float: right;
   font-size: 1.3rem;
-  margin: 0.6rem 0;
+  margin: 0.6rem 0 0 3px;
 }
 .content {
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 .public-speaking-line {
   margin: 0 0 1.5rem 6px;
@@ -87,9 +86,25 @@ hr {
   padding: 0 20px;
 }
 
+@media (min-width: 576px) {
+  .header { padding: 3.5rem 0; }
+  .name-headline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .social-icons {
+    display: inline-block;
+    float: right;
+    margin: 0.6rem 0;
+    vertical-align: middle;
+  }
+  .content { padding-bottom: 4.5rem; }
+}
 @media (min-width: 768px) {
   .container { max-width: 960px; }
 }
 @media (min-width: 1200px) {
   .container { max-width: 1140px; }
+  .header { padding: 4rem 0; }
+  .content { padding-bottom: 5rem; }
 }
