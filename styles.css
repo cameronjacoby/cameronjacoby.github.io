@@ -21,7 +21,7 @@ a:hover {
   color: #4dc59d;
   text-decoration: none;
 }
-a:focus, video:focus {
+a:focus {
   outline: none;
 }
 hr {
@@ -47,24 +47,13 @@ hr {
   margin: 0 0 1.5rem 6px;
   width: calc(100% - 99px);
 }
-.video-content, .image-content {
+.image-content {
   padding-right: 3px;
 }
-.video-content video, .image-content img {
-  width: 100%;
-}
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-  width: 100%;
-}
-.iframe-container iframe {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
+.image-content img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
 }
 
