@@ -11,9 +11,6 @@ h1 {
 h3 {
   font-weight: 700;
 }
-h5 {
-  text-transform: uppercase;
-}
 a {
   color: #2e283f;
 }
@@ -29,22 +26,19 @@ hr {
 }
 
 .header {
-  padding: 3rem 0;
   padding-right: 3px;
 }
 .social-icons {
   font-size: 1.3rem;
-  margin: 0.6rem 0 0 3px;
+  margin: 0.6rem 0 0 2px;
 }
-.content {
-  padding-bottom: 4rem;
+.speaking-line, .projects-line {
+  margin: 0 0 1.4rem 6px;
 }
-.public-speaking-line {
-  margin: 0 0 1.5rem 6px;
-  width: calc(100% - 164px);
+.speaking-line {
+  width: calc(100% - 96px);
 }
 .projects-line {
-  margin: 0 0 1.5rem 6px;
   width: calc(100% - 99px);
 }
 .image-content {
@@ -76,7 +70,6 @@ hr {
 }
 
 @media (min-width: 576px) {
-  .header { padding: 3.5rem 0; }
   .name-headline {
     display: inline-block;
     vertical-align: middle;
@@ -87,13 +80,11 @@ hr {
     margin: 0.6rem 0;
     vertical-align: middle;
   }
-  .content { padding-bottom: 4.5rem; }
 }
 @media (min-width: 768px) {
   .container { max-width: 960px; }
 }
 @media (min-width: 1200px) {
   .container { max-width: 1140px; }
-  .header { padding: 4rem 0; }
-  .content { padding-bottom: 5rem; }
+  .header { padding-right: 0; }
 }
