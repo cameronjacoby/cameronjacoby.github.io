@@ -31,6 +31,7 @@ hr {
 .social-icons {
   font-size: 1.3rem;
   margin: 0.6rem 0 0 2px;
+  padding-right: 3px;
 }
 .speaking-line, .projects-line {
   margin: 0 0 1.4rem 6px;
@@ -39,7 +40,7 @@ hr {
   width: calc(100% - 96px);
 }
 .projects-line {
-  width: calc(100% - 99px);
+  width: calc(100% - 98px);
 }
 .image-content {
   padding-right: 3px;
