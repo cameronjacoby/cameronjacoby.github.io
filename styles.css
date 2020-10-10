@@ -4,11 +4,12 @@ body {
   background-color: #f5eeef;
   color: #2e283f;
   font-family: 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
 }
 h1 {
   font-family: 'Limelight', cursive;
 }
-h3 {
+h2, h3 {
   font-weight: 700;
 }
 a {
@@ -42,10 +43,13 @@ hr {
 .projects-line {
   width: calc(100% - 98px);
 }
-.image-content {
+.home-content {
   padding-right: 3px;
 }
-.image-content img {
+.post-content {
+  padding-right: 2px;
+}
+.home-content img, .post-content img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -68,6 +72,9 @@ hr {
 .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6,
 .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
   padding: 0 20px;
+}
+.small {
+  font-size: 1rem;
 }
 
 @media (min-width: 576px) {
