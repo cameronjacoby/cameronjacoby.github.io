@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Limelight|Source+Sans+Pro:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Limelight|Source+Sans+Pro:400,400i,600,600i,700,700i');
 
 body {
   background-color: #f5eeef;
@@ -12,12 +12,14 @@ h1 {
 h2, h3 {
   font-weight: 700;
 }
-a {
+h1 a, h2 a, h3 a, .social-icons a {
   color: #2e283f;
 }
-a:hover {
-  color: #4dc59d;
+h1 a:hover, h2 a:hover, h3 a:hover, .social-icons a:hover {
   text-decoration: none;
+}
+a, a:hover {
+  color: #4dc59d;
 }
 a:focus {
   outline: none;
@@ -25,14 +27,17 @@ a:focus {
 hr {
   border-top: 1px solid #2e283f;
 }
+strong {
+  font-weight: 600;
+}
 
 .header {
-  padding-right: 3px;
+  padding-right: 2px;
 }
 .social-icons {
   font-size: 1.3rem;
   margin: 0.6rem 0 0 2px;
-  padding-right: 3px;
+  padding-right: 2px;
 }
 .speaking-line, .projects-line {
   margin: 0 0 1.4rem 6px;
@@ -53,7 +58,12 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
   width: 100%;
+}
+.post-body p {
+  margin-bottom: 1.4rem;
 }
 
 .col, .col-1, .col-10, .col-11, .col-12,
