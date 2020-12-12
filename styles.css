@@ -65,6 +65,10 @@ strong {
 .post-body p {
   margin-bottom: 1.4rem;
 }
+.footnote {
+  margin-left: 0;
+  width: 100px;
+}
 
 .col, .col-1, .col-10, .col-11, .col-12,
 .col-2, .col-3, .col-4, .col-5, .col-6,
