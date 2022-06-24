@@ -6,8 +6,11 @@ body {
   font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
-h1, h3 {
+h1, h2, h3 {
   font-family: 'Merriweather', serif;
+}
+h2 {
+  font-size: 28px;
 }
 h3 {
   font-size: 20px;
@@ -55,18 +58,9 @@ a.project-card:hover {
   width: 100%;
 }
 
-
-
+/* /// */
 .post-content {
   padding-right: 2px;
-}
-.home-content img, .post-content img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 0.25rem;
-  margin-bottom: 1rem;
-  width: 100%;
 }
 .post-body p {
   margin-bottom: 1.4rem;
@@ -75,8 +69,7 @@ a.project-card:hover {
   margin-left: 0;
   width: 100px;
 }
-
-
+/* /// */
 
 .col, .col-1, .col-10, .col-11, .col-12,
 .col-2, .col-3, .col-4, .col-5, .col-6,
