@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,400i,500,500i');
 
 body {
   background-color: #ffffff;
@@ -14,31 +14,45 @@ h3 {
 }
 a, a:hover {
   color: #039be5;
+}
+a, h1 a:hover, h3 a:hover {
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 a:focus, a:focus-visible {
   outline: none;
 }
 
 .name-headline {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  margin: 36px 0 24px 0;
+  padding-left: 5px;
 }
 .nav-links {
-  display: inline-block;
-  float: right;
-  vertical-align: middle;
+  display: block;
 }
-.nav-links .list-group-item {
-  display: inline-block;
-  vertical-align: middle;
+.nav-links .list-group-item:first-child {
+  padding-left: 5px;
 }
-.project-card a, .project-card a:hover {
+a.project-card, a.project-card:hover {
   color: #1a1a1a;
 }
-.project-card img {
-  margin-right: 10px;
-  width: 200px;
+a.project-card:hover {
+  background-color: #f7f7f7;
+  text-decoration: none;
+}
+.project-image, .project-title-description {
+  display: block;
+  padding: 0 5px;
+  width: 100%;
+}
+.project-title-description {
+  margin: 16px 0 4px 0;
+}
+.project-image img {
+  width: 100%;
 }
 
 
@@ -81,11 +95,40 @@ a:focus, a:focus-visible {
 .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
   padding: 0 20px;
 }
-.small {
-  font-size: 14px;
-}
+.small { font-size: 15px; }
+.smaller { font-size: 14px; }
+.text-muted { color: #666666 }
 
+@media (min-width: 500px) {
+  .container {
+    padding-bottom: 36px;
+  }
+  .header {
+    padding: 48px 0;
+  }
+  .name-headline {
+    display: inline-block;
+    margin: 0;
+    padding-left: 8px;
+  }
+  .nav-links {
+    display: inline-block;
+    float: right;
+  }
+  .project-image {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    width: 210px;
+  }
+  .project-title-description {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 216px);
+  }
+}
 @media (min-width: 576px) {
+  .container { max-width: none; }
   .content { max-width: 728px; }
 }
 @media (min-width: 768px) {
