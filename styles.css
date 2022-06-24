@@ -21,9 +21,6 @@ a, a:hover {
 a, h1 a:hover, h3 a:hover {
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
 a:focus, a:focus-visible {
   outline: none;
 }
@@ -41,9 +38,6 @@ a:focus, a:focus-visible {
 }
 a.project-card, a.project-card:hover {
   color: #1a1a1a;
-}
-a.project-card:hover {
-  background-color: #f7f7f7;
   text-decoration: none;
 }
 .project-image, .project-title-description {
@@ -57,19 +51,6 @@ a.project-card:hover {
 .project-image img {
   width: 100%;
 }
-
-/* /// */
-.post-content {
-  padding-right: 2px;
-}
-.post-body p {
-  margin-bottom: 1.4rem;
-}
-.footnote {
-  margin-left: 0;
-  width: 100px;
-}
-/* /// */
 
 .col, .col-1, .col-10, .col-11, .col-12,
 .col-2, .col-3, .col-4, .col-5, .col-6,
@@ -125,6 +106,8 @@ a.project-card:hover {
   .content { max-width: 728px; }
 }
 @media (min-width: 768px) {
+  a:hover { text-decoration: underline; }
+  a.project-card:hover { background-color: #f7f7f7; }
   .container { max-width: 960px; }
 }
 @media (min-width: 1200px) {
