@@ -2,7 +2,7 @@
 
 body {
   background-color: #ffffff;
-  color: #404040;
+  color: #1a1a1a;
   font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
@@ -34,7 +34,7 @@ a:focus, a:focus-visible {
   vertical-align: middle;
 }
 .project-card a, .project-card a:hover {
-  color: #404040;
+  color: #1a1a1a;
 }
 .project-card img {
   margin-right: 10px;
