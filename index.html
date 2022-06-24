@@ -24,80 +24,73 @@
   <link rel="icon" href="images/favicon_16x16.png" sizes="16x16" type="image/png">
   <link rel="icon" href="images/favicon_32x32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="images/favicon_196x196.png" sizes="196x196" type="image/png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/820525d323.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="container pb-5">
     <div class="header py-5">
       <div class="row">
         <div class="col-12">
-          <h1 class="name-headline m-0 text-uppercase">
+          <h1 class="name-headline m-0">
             <a href="/">Cameron Jacoby</a>
           </h1>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/cameronjacoby" target="_blank" class="mr-1">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/cameronjacoby" target="_blank" class="mr-1">
-              <i class="fab fa-instagram-square"></i>
-            </a>
-            <a href="mailto:cameron.jacoby@gmail.com" target="_blank">
-              <i class="fas fa-envelope-square"></i>
-            </a>
-          </div>
+          <ul class="list-group list-group-flush list-group-horizontal nav-links">
+            <li class="border-0 list-group-item m-0">
+              <a href="/">Home</a>
+            </li>
+            <li class="border-0 list-group-item m-0">
+              <a href="/">Projects</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="content pb-5">
+    <div class="border-top content mx-auto pt-3 pb-5">
       <div class="row">
-        <div class="col-md-6 mb-4 mb-md-0">
-          <h5 class="align-middle d-inline-block mb-4 text-uppercase">Speaking</h5>
-          <hr class="speaking-line align-middle d-inline-block">
-          <div class="home-content mb-4">
-            <h3>
-              <a href="https://www.infoq.com/presentations/work-life-balance" target="_blank">
-                Work-Life Balance at QCon SF
-              </a>
-            </h3>
-            <p class="small"><strong>San Francisco, CA - November 2018</strong></p>
-            <a href="https://www.infoq.com/presentations/work-life-balance" target="_blank">
-              <img src="images/work_life_balance_at_qcon_sf.png" alt="Work-Life Balance at QCon SF">
+        <div class="col-12">
+          <div class="project-card py-3">
+            <a class="d-inline-block" href="driving-solo">
+              <div class="align-top d-inline-block">
+                <h3>Driving Solo</h3>
+                <p class="small">London, UK - October 2019</p>
+                <p class="mb-0">
+                  I've never been a confident driver. My first driving lesson ended with me in tears and a menacing scratch under my mom's car, the results of me slamming the gas instead of the brake while attempting to park. It was a slow road to improvement from there, and to be honest, it never got that much better. For most of my adult life, I've avoided cars by living in a city where having one is more trouble than it's worth, and where it's possible to walk across the diameter in about three hours...
+                </p>
+              </div>
             </a>
           </div>
-          <div class="home-content mb-4">
-            <h3>
-              <a href="https://confreaks.tv/videos/railsconf2017-implementing-the-web-speech-api-for-voice-data-entry" target="_blank">
-                Web Speech API at RailsConf
-              </a>
-            </h3>
-            <p class="small"><strong>Phoenix, AZ - April 2017</strong></p>
-            <a href="https://confreaks.tv/videos/railsconf2017-implementing-the-web-speech-api-for-voice-data-entry" target="_blank">
-              <img src="images/web_speech_api_at_railsconf.png" alt="Web Speech API at RailsConf">
+          <div class="project-card py-3">
+            <a class="d-inline-block" href="https://www.infoq.com/presentations/work-life-balance" target="_blank">
+              <div class="align-top d-inline-block">
+                <img src="images/work_life_balance_at_qcon_sf.png" alt="Work-Life Balance at QCon SF">
+              </div>
+              <div class="align-top d-inline-block">
+                <h3>Work-Life Balance at QCon SF</h3>
+                <p class="small">San Francisco, CA - November 2018</p>
+              </div>
             </a>
           </div>
-        </div>
-        <div class="col-md-6">
-          <h5 class="align-middle d-inline-block mb-4 text-uppercase">Projects</h5>
-          <hr class="projects-line align-middle d-inline-block">
-          <div class="home-content mb-4">
-            <h3>
-              <a href="driving-solo">Driving Solo</a>
-            </h3>
-            <p class="small"><strong>London, UK - October 2019</strong></p>
-            <p class="small">
-              I've never been a confident driver. My first driving lesson ended with me in tears and a menacing scratch under my mom's car, the results of me slamming the gas instead of the brake while attempting to park. It was a slow road to improvement from there, and to be honest, it never got that much better. For most of my adult life, I've avoided cars by living in a city where having one is more trouble than it's worth, and where it's possible to walk across the diameter in about three hours.
-              <a href="driving-solo"><strong>Read more &rarr;</strong></a>
-            </p>
+          <div class="project-card py-3">
+            <a class="d-inline-block" href="houses-in-the-richmond">
+              <div class="align-top d-inline-block">
+                <img src="images/houses_in_the_richmond.png" alt="Houses in the Richmond">
+              </div>
+              <div class="align-top d-inline-block">
+                <h3>Houses in the Richmond</h3>
+                <p class="small">San Francisco, CA - March 2018</p>
+              </div>
+            </a>
           </div>
-          <div class="home-content mb-4">
-            <h3>
-              <a href="houses-in-the-richmond">Houses in the Richmond</a>
-            </h3>
-            <p class="small"><strong>San Francisco, CA - March 2018</strong></p>
-            <a href="houses-in-the-richmond">
-              <img src="images/houses_in_the_richmond.png" alt="Houses in the Richmond">
+          <div class="project-card py-3">
+            <a class="d-inline-block" href="https://confreaks.tv/videos/railsconf2017-implementing-the-web-speech-api-for-voice-data-entry" target="_blank">
+              <div class="align-top d-inline-block">
+                <img src="images/web_speech_api_at_railsconf.png" alt="Web Speech API at RailsConf">
+              </div>
+              <div class="align-top d-inline-block">
+                <h3>Web Speech API at RailsConf</h3>
+                <p class="small">Phoenix, AZ - April 2017</p>
+              </div>
             </a>
           </div>
         </div>
