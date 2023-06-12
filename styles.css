@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,400i,500,500i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,400i,500,500i,600,600i');
 
 body {
   background-color: #ffffff;
@@ -7,16 +7,19 @@ body {
   font-size: 16px;
 }
 h1, h2, h3 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', serif;
 }
 h1 {
   font-size: 32px;
+  font-weight: 600;
 }
 h2 {
   font-size: 24px;
+  font-weight: 600;
 }
 h3 {
   font-size: 20px;
+  font-weight: 600;
 }
 a, a:hover {
   color: #039be5;
@@ -35,9 +38,6 @@ a:focus, a:focus-visible {
 }
 .nav-links {
   display: block;
-}
-.nav-links .list-group-item:first-child {
-  padding-left: 5px;
 }
 a.project-card, a.project-card:hover {
   color: #1a1a1a;
@@ -76,9 +76,15 @@ a.project-card, a.project-card:hover {
 .smaller { font-size: 14px; }
 .text-muted { color: #666666 }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
+  h1 { font-size: 40px; }
+  h2 { font-size: 28px; }
   .container {
+    max-width: none;
     padding-bottom: 36px;
+  }
+  .content {
+    max-width: 728px;
   }
   .header {
     padding: 48px 0;
@@ -103,12 +109,6 @@ a.project-card, a.project-card:hover {
     padding: 0;
     width: calc(100% - 216px);
   }
-}
-@media (min-width: 576px) {
-  h1 { font-size: 40px; }
-  h2 { font-size: 28px; }
-  .container { max-width: none; }
-  .content { max-width: 728px; }
 }
 @media (min-width: 768px) {
   a:hover { text-decoration: underline; }
